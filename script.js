@@ -9,10 +9,21 @@ function convertToRoman(num) {
       6:['I', 1]
     };
 
-  //your code here
-
+  let input=num;
+   let length=length(input);
+for (i=0; i<length; i++){
+	if(length==1 && input[i]==1){
+		input[i]= obj[6][0];
+		console.log("hello");
+	}
+	else{
+		console.log("invalid");
+	}
+		
+	}
 }
-// You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
+
+on and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 // console.log(convertToRoman(36));
 
